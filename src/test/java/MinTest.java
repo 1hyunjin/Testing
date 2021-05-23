@@ -19,12 +19,12 @@ public class MinTest {
     void testNullElementwithMultipleElements() {
         list.add(null);
         list.add("aa");
-//        try {
-//            Min.min(list);
-//        }catch( NullPointerException e) {
-//            return;
-//        }
-        Min.min(list);
+        try {
+            Min.min(list);
+        }catch( NullPointerException e) {
+            return;
+        }
+
 
     }
     @Test
