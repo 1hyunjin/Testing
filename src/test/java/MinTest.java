@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class MinTest {
-
     ArrayList<String> list = new ArrayList<String>();
     @Test
     void testNullList() {
@@ -16,6 +15,7 @@ public class MinTest {
             return;
         }
     }
+
     @Test
     void testNullElementwithMultipleElements() {
         list.add(null);
