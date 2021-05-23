@@ -15,7 +15,6 @@ public class MinTest {
             return;
         }
     }
-
     @Test
     void testNullElementwithMultipleElements() {
         list.add(null);
